@@ -35,11 +35,11 @@ spec:
             version: prod
           - env: integration-gpu
             region: us
-            type: non-prod
+            type: integration-gpu
             version: qa
           - env: integration-non-gpu
             region: us
-            type: non-prod
+            type: integration-non-gpu
             version: qa
   template:
     metadata:
